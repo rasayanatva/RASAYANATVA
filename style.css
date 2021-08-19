@@ -114,7 +114,7 @@ nav {
 .home-heading {
   height: 100vh;
   text-align: center;
-  background-image: url(banner-img1.jpg);
+  background-image: url(img/banner-img1.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -181,4 +181,31 @@ nav {
   text-align: center;
 
   color: var(--primary-color);
+}
+#event{
+  height: 100vh;
+  text-align: center;
+  background-image: url(img/event.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  background-position: center;
+  
+}
+
+#event::after {
+  content: "";
+  position: absolute;
+  background-color: #000;
+  height: 100%;
+  width: 100%;
+  opacity: 60%;
+
+}
+
+#event .col-sm-12 {
+  font-family: "Merriweather", serif;
+  z-index: 2;
+  position: relative;
 }
