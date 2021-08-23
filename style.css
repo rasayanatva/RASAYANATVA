@@ -7,7 +7,7 @@
 }
 
 :root {
-  --primary-color: hsl(357, 48%, 41%);
+  --primary-color: #9b363b;
   --secondary-color: #cbd7e1;
   --black: hsl(0, 0%, 0%);
 }
@@ -164,7 +164,7 @@ nav {
 }
 
 #sec-8 {
-  background-image: url("./Untitled\ design\ \(1\).svg");
+  background-image: url("./Untitled\ design\ \(1\).png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -179,10 +179,15 @@ nav {
 #team {
   height: 100vh;
   text-align: center;
-
-  color: var(--primary-color);
+  color: #000;
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
 }
-#event{
+
+#team .learn-more i {
+  color: #000;
+}
+#event {
   height: 100vh;
   text-align: center;
   background-image: url(img/event.png);
@@ -191,7 +196,6 @@ nav {
   background-size: cover;
   color: #fff;
   background-position: center;
-  
 }
 
 #event::after {
@@ -201,11 +205,33 @@ nav {
   height: 100%;
   width: 100%;
   opacity: 60%;
-
 }
 
 #event .col-sm-12 {
   font-family: "Merriweather", serif;
   z-index: 2;
   position: relative;
+}
+
+.duurl {
+  color: #000;
+}
+
+#more,
+#more1,
+#more2 {
+  display: none;
+}
+
+#sec-9 {
+  background-image: url("/img/bg.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  color: rgb(255, 255, 255);
+  margin: 70px 0 0 0;
+  background-position: center;
+  padding: 50px 20px;
 }
