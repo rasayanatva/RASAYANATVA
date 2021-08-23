@@ -159,10 +159,16 @@ nav {
 }
 
 #footer {
-  background-color: var(--black);
+  background-color: var(--primary-color);
   color: #fff;
+  text-transform: capitalize;
 }
 
+#footer a,
+h4,
+i {
+  color: #fff;
+}
 #sec-8 {
   background-image: url("./Untitled\ design\ \(1\).png");
   background-repeat: no-repeat;
@@ -176,7 +182,6 @@ nav {
   padding: 50px 20px;
 }
 
-
 #sec-9 {
   background-image: url("bg.png");
   background-repeat: no-repeat;
@@ -189,7 +194,6 @@ nav {
   background-position: center;
   padding: 50px 20px;
 }
-
 
 #team {
   height: 100vh;
@@ -237,4 +241,3 @@ nav {
 #more2 {
   display: none;
 }
-
