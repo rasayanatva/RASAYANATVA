@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@700&family=Bebas+Neue&family=Merriweather:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@700&family=Bebas+Neue&family=Merriweather:wght@700&family=Poppins:wght@00;900&display=swap");
 
 * {
   margin: 0;
@@ -15,6 +15,11 @@
 a {
   text-decoration: none;
 }
+
+/* h1,h2,h3,h4,h5,h6{
+  font-family: "Poppins", sans-serif;
+} */
+
 
 /* SECTION-1 */
 .section-1 {
@@ -58,7 +63,7 @@ a {
 }
 
 .heading h1 {
-  font-family: "Barlow", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   position: relative;
 }
@@ -75,7 +80,7 @@ a {
   font-size: 2rem;
   text-transform: uppercase;
   margin-top: 20px;
-  font-family: "Barlow", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 300;
   transition: 0.5s ease-in-out;
   transition-property: background-color;
@@ -93,6 +98,8 @@ nav {
   background-color: var(--primary-color);
   box-shadow: 0 4px 12px 0 rgb(0 0 0 / 55%);
   text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
 }
 
 .navbar-nav .nav-item .nav-link,
@@ -106,7 +113,7 @@ nav {
 }
 
 .navbar .navbar-brand {
-  font-family: "Open Sans";
+  font-family: "Poppins", sans-serif;
   font-size: 1.6rem;
   color: var(--secondary-color);
 }
@@ -131,7 +138,7 @@ nav {
   opacity: 60%;
 }
 .home-heading .col-sm-12 {
-  font-family: "Merriweather", serif;
+  font-family: "Poppins", sans-serif;
   z-index: 2;
   position: relative;
 }
@@ -166,7 +173,7 @@ nav {
 
 #footer a,
 h4,
-i {
+i,.copyright {
   color: #fff;
 }
 #sec-8 {
@@ -199,7 +206,7 @@ i {
   height: 100vh;
   text-align: center;
   color: #000;
-  font-family: "Barlow", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
 }
 
@@ -227,7 +234,7 @@ i {
 }
 
 #event .col-sm-12 {
-  font-family: "Merriweather", serif;
+  font-family: "Poppins", sans-serif;
   z-index: 2;
   position: relative;
 }
@@ -240,4 +247,10 @@ i {
 #more1,
 #more2 {
   display: none;
+}
+
+
+#mem h4{
+  color: #000;
+  font-weight: 500;
 }
